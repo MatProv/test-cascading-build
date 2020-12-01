@@ -23,7 +23,7 @@
        "docker:enableMajor"
     ],
     "repositories":[
-       "matprov/test-cascading-build"
+       "MatProv/test-cascading-build"
     ],
     "prHourlyLimit":0,
     "prConcurrentLimit": 20,
