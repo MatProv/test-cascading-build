@@ -1,0 +1,36 @@
+{
+    "endpoint":"https://api.github.com",
+    "platform":"github",
+    "renovateFork":true,
+    "includeForks":true,
+    "labels":[
+       "renovate",
+       "dependencies",
+       "automated"
+    ],
+    "assignees":[
+       "MatProv"
+    ],
+    "onboarding":true,
+    "onboardingConfig":{
+       "extends":[
+          "config:base",
+          "docker:enableMajor"
+       ]
+    },
+    "extends":[
+       "config:base",
+       "docker:enableMajor"
+    ],
+    "repositories":[
+       "matprov/test-cascading-build"
+    ],
+    "prHourlyLimit":0,
+    "prConcurrentLimit": 20,
+    "logFile":"renovate.log",
+    "logFileLevel":"debug",
+    "logLevel":"info",
+    "schedule": [
+      "every weekday"
+    ]
+  }
