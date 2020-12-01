@@ -1,3 +1,3 @@
 FROM matprov/base-img-test
 
-RUN echo "test" > /nlp-img-test
+RUN echo "testss" > /nlp-img-test
