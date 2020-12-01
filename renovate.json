@@ -29,8 +29,5 @@
     "prConcurrentLimit": 20,
     "logFile":"renovate.log",
     "logFileLevel":"debug",
-    "logLevel":"info",
-    "schedule": [
-      "every weekday"
-    ]
+    "logLevel":"info"
   }
