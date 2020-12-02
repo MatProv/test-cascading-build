@@ -5,3 +5,5 @@ docker build -t matprov/nlp-img-test ./nlp
 
 docker run -it --rm matprov/eo-img-test sh -c "ls -la *test" <br>
 docker run -it --rm matprov/nlp-img-test sh -c "ls -la *test"
+
+test
