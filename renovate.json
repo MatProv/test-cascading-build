@@ -21,8 +21,7 @@
         "packageNames": [
           "matprov/base-img-test"
         ],
-        "groupName": "base-image-update",
-        "groupSlug": "base-image-update"
+        "groupName": "base image update"
       }
     ]
   },
