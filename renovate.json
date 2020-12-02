@@ -36,5 +36,8 @@
     "prConcurrentLimit": 20,
     "logFile":"renovate.log",
     "logFileLevel":"debug",
-    "logLevel":"info"
+    "logLevel":"info",
+    "schedule": [
+        "hourly"
+    ]
   }
