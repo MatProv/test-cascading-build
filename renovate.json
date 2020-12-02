@@ -38,6 +38,6 @@
     "logFileLevel":"debug",
     "logLevel":"info",
     "schedule": [
-        "hourly"
+        "every 1 hour"
     ]
   }
