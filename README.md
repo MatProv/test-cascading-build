@@ -7,3 +7,4 @@ docker run -it --rm matprov/eo-img-test sh -c "ls -la *test" <br>
 docker run -it --rm matprov/nlp-img-test sh -c "ls -la *test"
 
 
+tsafsf
