@@ -15,6 +15,16 @@
           "docker:enableMajor"
        ]
     },
+    "docker":{
+        "packageRules": [
+          {
+            "packageNames": [
+              "matprov/base-img-test"
+            ],
+            "groupName": "base image update"
+         }
+        ]
+    },
     "extends":[
        "config:base",
        "docker:enableMajor"
