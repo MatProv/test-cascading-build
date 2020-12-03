@@ -1,4 +1,5 @@
 docker build -t matprov/base-img-test ./base <br>
+
 docker build -t matprov/eo-img-test ./eo <br>
 docker build -t matprov/nlp-img-test ./nlp
 
